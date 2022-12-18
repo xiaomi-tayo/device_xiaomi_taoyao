@@ -213,6 +213,9 @@ on post-fs-data
     restorecon /sys/module/migt/parameters/mi_viptask
     mkdir /data/vendor/misc/display 0771 system system
 
+    # Create folder of cameralog
+    mkdir /data/vendor/camera/offlinelog 0777 cameraserver audio
+
 on early-boot
     start vendor.sensors
     verity_update_state
