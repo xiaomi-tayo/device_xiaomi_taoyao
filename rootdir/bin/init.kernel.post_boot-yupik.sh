@@ -314,7 +314,7 @@ done
 
 #Enable sleep and set s2idle as default suspend mode
 echo N > /sys/module/lpm_levels/parameters/sleep_disabled
-echo s2idle > /sys/power/mem_sleep
+echo deep > /sys/power/mem_sleep
 
 configure_memory_parameters
 
