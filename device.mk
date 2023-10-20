@@ -484,7 +484,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi
+    vendor.lineage.touch-service.xiaomi
 
 # Touchscreen
 PRODUCT_COPY_FILES += \
